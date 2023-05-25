@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSE 121b: Week 06 | Project</title>
+    <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/project.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bring Me Home - DOG</h1>
+     </header>
+    <main>
+        <hr>
+        <section>
+            <ol>
+                <li>I will show you random dogs. </li>
+                <li>You could type the width and height to search the range of those dogs</li>
+                <li>You could click button show me other dogs then do the same thing.</li>
+            </ol>
+        </section>
+        <hr>
+        <section>
+            <button id="showOthersDogs">See Other Dogs</button>
+            <p>
+                Width: 
+                <input id="widthMin">
+                ~
+                <input id="widthMax">
+            </p>
+            <p>
+                Height: 
+                <input id="heightMin">
+                ~
+                <input id="heightMax">
+            </p>
+            <button id="search">Search</button>
+            <button id="recover">Recover</button>
+            <div id="message"></div>
+            <div id="dogGallery">
+            </div>
+        </section>
+    </main>
+    <!-- <footer>
+        &copy;<span id="year"></span> | Bring Me Home | Lin, Chih-Yun
+    </footer> -->
+    <script src="scripts/project.js"></script>
+</body>
+
+</html>
